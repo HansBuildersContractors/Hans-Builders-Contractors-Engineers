@@ -1,0 +1,5 @@
+{
+  "name": "hans-builders", "private": true, "version": "1.0.0", "type": "module",
+  "scripts": { "dev": "node scripts/serve.mjs", "build": "node scripts/build.mjs", "check": "tsc --noEmit", "preview": "node scripts/serve.mjs" },
+  "devDependencies": { "typescript": "~5.9.2" }
+}
